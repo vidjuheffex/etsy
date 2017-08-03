@@ -12,8 +12,9 @@ const makeActionCreator = function (actionType) {
     return {
       type: actionType,
       payload: payload
-    }
-  }
-}
+    };
+  };
+};
 
 export const filterProducts = makeActionCreator(FILTER_PRODUCTS);
+

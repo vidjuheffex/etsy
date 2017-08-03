@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 class Product extends Component {
     render() {
-        const {product} = this.props;
+      const {product} = this.props;
 
         return (
             <li>
@@ -10,7 +10,7 @@ class Product extends Component {
               <h3>{product.title}</h3>
               <h4>{product.price}</h4>
             </li>
-        )
+        );
     }
 }
 
